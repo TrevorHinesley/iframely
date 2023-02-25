@@ -16,8 +16,8 @@ export default {
     // Specify a path for custom plugins. Custom plugins will override core plugins.
     // CUSTOM_PLUGINS_PATH: __dirname + '/yourcustom-plugin-folder',
 
-    DEBUG: false,
-    RICH_LOG_ENABLED: false,
+    DEBUG: true,
+    RICH_LOG_ENABLED: true,
 
     // For embeds that require render, baseAppUrl will be used as the host.
     baseAppUrl: "http://localhost:8061", // use "https://yourdomain.com/path" where you have Iframely in your reverse proxy
